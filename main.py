@@ -3,7 +3,7 @@ from stocks import StockInfo
 from currency import CurrencyInfo
 from bs4 import BeautifulSoup
 import reticker
-token = "enter your token here"
+token = "enter your token here."
 bot = telebot.TeleBot(token, parse_mode=None)
 
 
