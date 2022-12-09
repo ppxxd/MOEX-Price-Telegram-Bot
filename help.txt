@@ -1,0 +1,6 @@
+You can control me by sending these commands:
+
+/stock - Get stock's information
+/currency - Get currency rate
+
+/help - Show this menu again
