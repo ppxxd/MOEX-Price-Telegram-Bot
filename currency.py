@@ -3,14 +3,14 @@ from bs4 import BeautifulSoup
 
 
 class CurrencyInfo:
-    moex_dict = {"USD": 'USD000UTSTOM',
-                 "EUR": 'EUR_RUB__TOM',
-                 "CNY": 'CNYRUB_TOM',
-                 "HKD": 'HKDRUB_TOM',
-                 "TRY": 'TRYRUB_TOM',
-                 "BYN": 'BYNRUB_TOM',
-                 "KZT": 'KZTRUB_TOM',
-                 "AMD": 'AMDRUB_TOM'}
+    moex_dict = {"USD": 'USD000UTSTOM', #Американский доллар
+                 "EUR": 'EUR_RUB__TOM', #Евро
+                 "CNY": 'CNYRUB_TOM', #Китайский юань
+                 "HKD": 'HKDRUB_TOM', #Гонконгский доллар
+                 "TRY": 'TRYRUB_TOM', #Турецкая лира
+                 "BYN": 'BYNRUB_TOM', #Белорусский рубль
+                 "KZT": 'KZTRUB_TOM', #Казахстанский тенге
+                 "AMD": 'AMDRUB_TOM'} #Армянский драм
 
 
     def __init__(self, message):
